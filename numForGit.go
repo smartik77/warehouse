@@ -33,7 +33,7 @@ func NewBag(weight int) Bag {
 }
 
 const maxWarehouse = 250 // требование скалада(кг)
-const cartСapacity = 3   // емкость тележки
+const cartСapacity = 4   // емкость тележки
 
 func main() {
 	wg := sync.WaitGroup{}
